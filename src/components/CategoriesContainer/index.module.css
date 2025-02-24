@@ -1,0 +1,7 @@
+.container {
+    display: flex; 
+    justify-content: space-between;
+    gap: 32px; 
+    background-color: #FFFFF1;
+    flex-wrap: wrap;
+}

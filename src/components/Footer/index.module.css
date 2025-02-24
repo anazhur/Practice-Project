@@ -1,0 +1,37 @@
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  color: #424436;
+  margin-top: 80px;
+}
+
+.contacts_container {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 32px;
+}
+
+.contact_card {
+  background-color: #f2f6d3;
+  padding: 32px;
+  border-radius: 12px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #424436;
+}
+
+.contact_card > p:first-child {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #8b8b8b;
+  padding-bottom: 16px;
+}
+
+.map_container > iframe {
+  margin: 32px 0 80px;
+  border-radius: 12px;
+}
+

@@ -1,0 +1,61 @@
+.cartPage {
+    background-color: #FFFFF1;
+}
+
+.cartPage > div:first-child {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.cartPage h2 {
+    font-weight: 700;
+    font-size: 64px;
+    margin-right: 16px;
+    color: #424436;
+}
+
+.cartPage hr {
+    height: 1px; /* Толщина линии */
+    background-color: #DDDDDD; /* Цвет линии */
+    border: none; /* Убираем стандартную рамку */
+    flex-grow: 1; 
+    margin-top: 8px; /* Настройка линии по центру от  Categories*/
+}
+
+.cartPage > div > a {
+    color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    background-color: #FFFFF1;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    /* margin-top: 8px; Настройка кнопки по центру линии */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cartPage > div:last-child {
+    margin-left: 40px;
+    display: flex;
+    gap: 32px;
+}
+
+.cartPage > div:last-child > div > p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.cartPage > div:last-child > div > a > button{
+    border: 1px solid #92A134;
+    background-color: #92A134;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    padding: 16px 56px;
+    border-radius: 8px;
+}

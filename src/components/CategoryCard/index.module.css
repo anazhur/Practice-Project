@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание внутри карточки */
+    align-items: center; /*Центрируем контент по горизонтали*/
+    width: 316px; /* Ширина карточки */
+    cursor: pointer;
+    
+  }
+
+.card>div{
+    overflow: hidden;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 316px; /* Изображение растягивается на всю ширину карточки */
+    height: 400px; /* Фиксированная высота изображения */
+    object-fit: cover; /*Изображение будет обрезано, чтобы не деформировать */
+
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #424436 ;
+    margin-top: 16px;
+}
+
+.cardLink {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit;  /* Наследуем цвет текста от родителя */
+    display: block;  /* Ссылка должна занимать всю область карточки */
+    border: none;
+  }

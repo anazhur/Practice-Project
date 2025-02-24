@@ -1,0 +1,50 @@
+.discountedProducts {
+    background-color: #FFFFF1;
+    margin: 40px;
+}
+
+.discountedProducts > div {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.discountedProducts a {
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.discountedProducts a:first-child {
+    color: #8B8B8B;
+}
+
+.discountedProducts a:last-child {
+    color: #424436;
+}
+
+.discountedProducts hr {
+    height: 1px;
+    background-color: #424436;
+    border: none;
+    flex-grow: 0.01;
+    margin-top: 16px;
+}
+
+/* .discountedProducts > div:nth-child(3) {
+    display: flex;
+    gap: 40px;
+} */
+
+.discountedProducts h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #424436;
+    margin-bottom: 20px;
+}
+
+
+
+

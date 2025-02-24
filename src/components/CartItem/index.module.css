@@ -1,0 +1,105 @@
+
+/* Общий контейнер корзины */
+.cartItem > div {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    max-width: 780px;
+    max-height: 180px;
+    margin-bottom: 16px;
+    background-color: white;
+    position: relative;
+}
+
+.cartItem > div > img {
+    /* width: 200px; */
+    border-radius: 10px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.cartItem > div > div > p {
+    margin: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #282828;
+}
+
+.cartItem > div > div > div {
+    display: flex;
+}
+
+
+/* Контейнер управления количеством */
+.countButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 32px;
+    width: 200px;
+    height: 58px;
+    
+}
+
+.countButton button {
+    border: none;
+    /* border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD; */
+    /* padding-left: 31px;
+    padding-right: 31px; */
+    padding: 14px 17px;
+    background-color: white;
+    font-size: 24px;
+    color: #8B8B8B;
+    align-items: center;
+}
+
+.countButton p {
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    /* padding: 16px 19px; */
+    padding: 16px 38px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #424436;
+}
+
+
+
+.price {
+    margin-left: 32px;
+}
+
+.price div {
+    display: flex;
+}
+
+.dPrice {
+    margin-top: 20px;
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #8B8B8B;
+}
+
+.ndPrice {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.cartItem > div > div > svg {
+    position: absolute;
+    top: 38px;
+    right: 38px;
+    cursor: pointer;
+}
+
+
+
+

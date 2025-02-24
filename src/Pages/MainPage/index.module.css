@@ -1,0 +1,240 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 40px;
+  height: 600px;
+  padding: 80px 40px 210px;
+  background-image: url('../../media/header_img.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+
+.header > h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 105.6px;
+  color: #FFFFFF;
+  width: 1100px;
+}
+
+.header > div {
+  width: 218px;
+  height: 58px;
+  background-color: #92A134;
+  border-radius: 6px;
+  padding: 16px 56px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.mainCategories > div {
+  display: flex;
+  align-items: center;
+}
+
+.mainCategories > div > h2 {
+  font-weight: 700;
+  font-size: 64px;
+  margin-right: 16px;
+  color: #424436;
+}
+
+.mainCategories > div > hr {
+  height: 1px; /* Толщина линии */
+  background-color: #DDDDDD; /* Цвет линии */
+  border: none; /* Убираем стандартную рамку */
+  flex-grow: 1; 
+  margin-top: 8px; /* Настройка линии по центру от  Categories*/
+}
+
+.mainCategories > div > a button {
+  color: #DDDDDD;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  background-color: #FFFFF1;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin-top: 8px; /* Настройка кнопки по центру линии */
+  cursor: pointer;
+}
+
+.mainSale > div {
+  display: flex;
+  align-items: center;
+  /* gap: 16px; */
+}
+
+.mainSale > div > h2 {
+    font-weight: 700;
+    font-size: 64px;
+    margin-right: 16px;
+    color: #424436;
+}
+
+.mainSale > div > hr {
+    height: 1px; /* Толщина линии */
+    background-color: #DDDDDD; /* Цвет линии */
+    border: none; /* Убираем стандартную рамку */
+    flex-grow: 1; 
+    margin-top: 8px; /* Настройка линии по центру от  Categories*/
+}
+
+.mainSale > div > a button {
+    color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    background-color: #FFFFF1;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-top: 8px; /* Настройка кнопки по центру линии */
+    cursor: pointer;
+}
+
+.mainSale > div:first-child {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    button {
+      border-radius: 6px;
+      color: #8B8B8B;
+    }
+}
+
+
+.checkOutLink {
+    display: block; /* Сохраняет блочный формат, как у div */
+    width: 218px;
+    height: 58px;
+    background-color: #92A134;
+    border-radius: 6px;
+    padding: 16px 56px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none; /* Убираем подчеркивание ссылки */
+  }
+
+  .checkOutLink:hover {
+    background-color: #7b8630;
+  }
+  
+/* Для экранов шириной до 768px
+@media (max-width: 768px) {
+  .header {
+    height: 400px;
+    padding: 40px 20px 100px;
+    gap: 20px;
+  }
+
+  .header > h1 {
+    font-size: 48px;
+    line-height: 52.8px;
+    width: 100%;
+  }
+
+  .header > div, .checkOutLink {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    padding: 12px 40px;
+  }
+
+  .main h2 {
+    font-size: 48px;
+  }
+
+  .mainCategories > div:first-child,
+  .mainSale > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .mainCategories button,
+  .mainSale button {
+    margin-top: 16px;
+  }
+}
+
+/* Для экранов шириной до 480px */
+/* @media (max-width: 480px) {
+  .header {
+    height: 300px;
+    padding: 20px;
+  }
+
+  .header > h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .header > div, .checkOutLink {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .main h2 {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+  .mainCategories > div:first-child,
+  .mainSale > div:first-child {
+    margin-left: 10px;
+  }
+
+  .mainCategories button,
+  .mainSale button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+/* Для экранов шириной до 360px */
+/* @media (max-width: 360px) {
+  .header {
+    height: 250px;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .header > h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .header > div, .checkOutLink {
+    width: 120px;
+    height: 36px;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .main h2 {
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+
+  .mainCategories > div:first-child,
+  .mainSale > div:first-child {
+    margin-left: 5px;
+  }
+
+  .mainCategories button,
+  .mainSale button {
+    font-size: 12px;
+    padding: 4px 8px;
+*/ 

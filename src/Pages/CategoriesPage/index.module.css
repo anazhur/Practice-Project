@@ -1,0 +1,7 @@
+.categories {
+    background-color: #FFFFF1;
+}
+
+.categories > nav {
+    margin: 40px;
+}

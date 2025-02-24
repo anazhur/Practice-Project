@@ -1,0 +1,42 @@
+.checkBox p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #424436;
+    padding: 10px;
+}
+
+.checkBox > label {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.checkBox input[type="checkbox"] {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.checkBox input[type="checkbox"]:checked {
+    background-color: #92A134; /* Цвет фона при checked */
+    border-color: #92A134; /* Цвет рамки */
+    
+}
+
+.checkBox input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%; /* Центрируем галочку по вертикали */
+    left: 50%; /* Центрируем галочку по горизонтали */
+    transform: translate(-50%, -50%); /* Применяем сдвиг для точного центрирования */
+    width: 24px;
+    height: 24px;
+    background-image: url('../../media/check.svg'); /* Путь к файлу SVG */
+    background-size: contain;
+    background-repeat: no-repeat;
+}

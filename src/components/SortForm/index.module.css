@@ -1,0 +1,40 @@
+.sorting {
+    display: flex;
+    flex-wrap: wrap; /* Для адаптации на маленьких экранах */
+    gap: 20px; /* Расстояние между блоками */
+    align-items: center;
+    height: 36px;
+}
+
+.sorting p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #424436;
+    padding: 10px;
+}
+
+.sorting > div {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.sorting select {
+    font-size: 16px;
+    font-weight: 500;
+    color: #424436;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.sorting input::placeholder {
+    color: #BBBBBB;
+}
+
+.sorting label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

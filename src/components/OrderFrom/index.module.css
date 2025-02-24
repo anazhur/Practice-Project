@@ -1,0 +1,66 @@
+.orderForm {
+    max-height: 582px;
+    width: 548px;
+    background-color: #F2F6D3;
+    border-radius: 8px;
+}
+
+.orderForm h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 32px 32px 24px;
+    color: #424436;
+}
+
+.orderForm > div > p {
+    margin-left: 32px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #8B8B8B;
+}
+
+.orderForm > div > div {
+    display: flex;
+}
+
+.orderForm > div > div > p:first-child {
+    margin-left: 32px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #8B8B8B;
+}
+
+.orderForm > div > div > p:last-child {
+    margin-left: 135px;
+    color: #424436;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.orderForm > form > input {
+    height: 58px;
+    width: 484px;
+    padding: 16px 32px;
+    background-color: white;
+    margin-top: 16px;
+    margin-left: 32px;
+    color: black;
+}
+
+.orderForm > form > input::placeholder {
+    color: #8B8B8B;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.orderForm > form > button {
+    height: 58px;
+    width: 484px;
+    background-color: #92A134;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 16px 32px;
+    margin: 32px;
+}

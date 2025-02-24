@@ -1,0 +1,52 @@
+.header {
+  padding: 0;
+  height: 128px;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  padding: 0 40px;
+}
+
+.header > div:last-child{
+  display: flex;
+  gap: 28px;
+}
+
+.header > nav {
+  display: flex;
+  gap: 32px;
+}
+
+.header > nav > a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-decoration: none;
+  color: #424436;
+  cursor: pointer;
+  
+}
+
+.header > div:last-child > a {
+  position: relative;
+}
+
+.header > div:last-child span {
+  background-color: #92A134;
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 28px;
+}

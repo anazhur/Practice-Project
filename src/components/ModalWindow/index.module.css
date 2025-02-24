@@ -1,0 +1,45 @@
+.modal {
+    background-color: rgba(40, 40, 40, 0.4);
+    position: fixed; 
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal > div {
+    background-color: rgba(146, 161, 52, 1);
+    padding: 32px 92px 32px 32px;
+    border-radius: 8px;
+    width: 548px;
+    height: 236px;
+    position: relative;
+}
+
+.modal > div > svg {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.modal > div > h4 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: white;
+    /* margin-top: 32px;
+    margin-left: 32px; */
+}
+
+.modal > div > p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    /* margin-left: 32px; */
+}

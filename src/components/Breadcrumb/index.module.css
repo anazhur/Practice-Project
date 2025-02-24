@@ -1,0 +1,38 @@
+/* Общий контейнер */
+.breadcrumb {
+    display: flex; /* Размещаем элементы в линию */
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Стили для ссылок */
+  .breadcrumb__link {
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #666; /* Цвет текста */
+    padding: 6px 10px; /* Отступы внутри ссылок */
+    border: 1px solid #ccc; /* Рамка вокруг ссылок */
+    border-radius: 6px; /* Скруглённые углы */
+    transition: all 0.3s ease;
+  }
+  
+  .breadcrumb__link:hover {
+    background-color: #f2f6d3; /* Цвет фона при наведении */
+    color: #333; /* Цвет текста при наведении */
+  }
+  
+  /* Стили для разделителя */
+  .breadcrumb__separator {
+    color: #ccc;
+  }
+  
+  /* Стили для текущего (последнего) элемента */
+  .breadcrumb__current {
+    padding: 6px 10px;
+    border: 1px solid #ccc; /* Прозрачная граница */
+    border-radius: 6px;
+    color: #333; /* Цвет текста */
+    font-weight: bold; /* Жирный шрифт */
+  }
+  
